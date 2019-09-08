@@ -1,5 +1,5 @@
 [build]
-target = "thumbv7em-none-eabihf"
+target = "an-os-x86_64.json"
 
 [target.'cfg(target_os = "linux")']
 rustflags = ["-C", "link-arg=-nostartfiles"]
